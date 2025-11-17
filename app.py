@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define a route and a view function
 @app.route("/")
 def hello_world():
-    return jsonify({"message" : "Hello all from Sanket"})
+    return jsonify({"message" : "Hello all from Sanket :-)"})
  
 # Run the application if the script is executed directly
 if __name__ == "__main__":
